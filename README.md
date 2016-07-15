@@ -1,10 +1,15 @@
 # Pretty Basic Template
 
-A very simple template for html and javascript based projects. Includes jQuery 2.2.4 and Angular 1 as well as bootstrap.
+A pretty basic template for html and javascript based projects. Includes jQuery 2.2.4 and Angular 1 as well as bootstrap.
+
+For all those situations where you want to start a project, but really hate starting projects.
 
 ## Install
 
-Edit the `prettyfancy.conf.example` file and place it in your vhost directory.
+Just edit this apache vhost config file and you're good to go.
+
+Edit `prettyfancy.conf.example` and place it in your vhost directory.
+Remember to remove the `.example` extension once its all set up.
 Then restart the service.
 
     vim prettyfancy.conf.example
