@@ -1,6 +1,6 @@
 # Pretty Basic Template
 
-A very simple template for html and javascript based projects
+A very simple template for html and javascript based projects. Includes jQuery 2.2.4 and Angular 1 as well as bootstrap.
 
 ## Install
 
