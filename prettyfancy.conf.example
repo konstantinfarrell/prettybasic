@@ -1,0 +1,14 @@
+<VirtualHost *:80>
+    ServerName prettyfancy.local
+    # so wildcard DNS for any IP works (see xip.io or nip.io)
+    ServerAlias 0.0.0.0.*
+
+    DocumentRoot /path/to/prettyfancy
+    ErrorLog /var/log/httpd/prettyfancy.local.error_log
+    CustomLog /var/log/httpd/prettyfancy.local.access_log vhost
+
+    <Directory path/to/prettyfancy>
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
